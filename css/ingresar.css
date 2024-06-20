@@ -1,0 +1,9 @@
+select{
+  border: none;
+  background-color: transparent; /* Cambia el color de fondo de la selección a transparente */
+  color: inherit; /* Mantiene el color del texto seleccionado igual al color del texto normal */
+  font-size: 25px;
+}
+.container_form_ingresar{
+  height: 50vh;
+}

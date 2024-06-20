@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: none;
+    box-sizing: border-box;
+}
+
+
+body{
+font-size: var(--font-size);
+background-color: var(--color--blanco);
+max-width: var(--max-width);
+padding: var(--padding);
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    
+}
+
+
+:root{
+    --font-size: 18px;
+    --color--blanco:#ffff;
+    --color--verde: #32CD32;
+    --color--boton:#E4FAED;
+    --max-width:1900px;
+    --padding: 8px;
+    --margin:10px;
+    --border-radius:8px;
+    --transition:1s;
+    --font-size:16px;
+    --gap:20px;
+}
+::selection{
+  background-color: var(--color--verde);
+  color: var(--color--boton);
+}

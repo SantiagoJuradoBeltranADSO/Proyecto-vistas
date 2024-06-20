@@ -1,0 +1,87 @@
+.container_2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  padding-top: 40px;
+  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
+  
+}
+
+.logo_22 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.recuadro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  height: 50px;
+  border-radius: 20px;
+  font-weight: normal;
+  box-shadow: 0 10px 5px -5px rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+margin:10px;
+padding: 15px;  
+
+
+}
+
+/* /////////////////////////////////////////////////////// */
+/* Estilos generales para el formulario */
+.container_3{
+  display: grid;
+   grid-template-columns: 250px 1fr;
+}
+
+.container_form{
+  display: flex;
+ justify-content: center;
+align-items: center;
+height: 65vh;
+}
+
+/* Estilos para las etiquetas de los campos */
+.formulario label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Estilos para los campos de entrada */
+.formulario input[type="text"],
+.formulario input[type="password"] {
+  border: 1px solid #ccc;
+ 
+}
+
+/* Estilos para el campo de correo electrónico */
+.formulario input[type="email"] {
+
+  border: 1px solid #ccc;
+
+}
+
+/* Estilos para el botón de envío */
+
+
+.text_form--inputs{
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.register_salir{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.recuadro_botons{  background-color: #E4FAED;}
