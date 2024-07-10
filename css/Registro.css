@@ -1,6 +1,6 @@
 .container_2 {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   align-items: center;
   padding-top: 40px;
   justify-content: space-between;
