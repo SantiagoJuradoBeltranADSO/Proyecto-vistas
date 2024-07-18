@@ -28,10 +28,11 @@ padding: var(--padding);
     --max-width:1900px;
     --padding: 8px;
     --margin:10px;
-    --border-radius:8px;
+    --border-radius:10px;
     --transition:1s;
     --font-size:16px;
     --gap:20px;
+
 }
 ::selection{
   background-color: var(--color--verde);
